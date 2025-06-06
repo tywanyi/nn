@@ -53,10 +53,10 @@ register(
 # 经典控制环境：基于数学模型的控制问题
 
 register(
-    id='CartPole-v0',  # 倒立摆平衡任务
-    entry_point='gym.envs.classic_control:CartPoleEnv',
-    max_episode_steps=200,  # 200步达标
-    reward_threshold=195.0,
+    id = 'CartPole-v0',  # 倒立摆平衡任务
+    entry_point = 'gym.envs.classic_control:CartPoleEnv',
+    max_episode_steps = 200,  # 200步达标
+    reward_threshold = 195.0,
 )
 
 
